@@ -1,14 +1,10 @@
 ---
 database:
   default:
-    host: 127.0.0.1
-    port: '1433'
-    user: sa
-    pwd: Aa123456
-    name: goadmin
+    file: "./data/admin.db"
     max_idle_con: 50
     max_open_con: 150
-    driver: mssql
+    driver: sqlite
 domain: localhost
 prefix: admin
 store:
